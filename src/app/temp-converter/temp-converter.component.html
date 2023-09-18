@@ -1,0 +1,42 @@
+<table>
+  <tr>
+    <td>
+      <label for="PremierNombre">premier nombre:</label>
+    </td>
+    <td>
+      <input name="Premier nombre" id="premierNombre" [(ngModel)]="premierNombre">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="DeuxiemeNombre"> Deuxieme nombre :</label>
+    </td>
+    <td>
+      <input name="Deuxieme nombre" id="deuxiemeNombre" [(ngModel)]="deuxiemeNombre">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="Resultat">Resultat:</label>
+    </td>
+    <td>
+      <input name="Resultat" id="Resultat" >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button (click)="addition()">+</button>
+    </td>
+    <td>
+      <button (click)="Soustraction()">-</button>
+    </td>
+    <td>
+      <button (click)="Multiplication()">*</button>
+    </td>
+    <td>
+      <button (click)="Division()">/</button>
+    </td>
+  </tr>
+</table>
+
+
